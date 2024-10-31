@@ -47,66 +47,86 @@
 
     <!-- ================== section cart ================== -->
 
-    <section id="cart" class="section-p1"></section>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Images</td>
+            <td>Product</td>
+            <td>Prices</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
 
-    <!-- ================== section footer ================== -->
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/products/f1.jpg" alt="" /></td>
+            <td>Carton Astronaut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
 
-    <footer class="section-p1">
-      <div class="col">
-        <img class="logo" src="images/logo.png" alt="" />
-        <h4>Contact</h4>
-        <p>
-          <strong>Address:</strong> 562 WellingtonRoad,Street 32 San Francisco
-        </p>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/products/f2.jpg" alt="" /></td>
+            <td>Carton Astronaut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
 
-        <p><strong>Phone:</strong> 561 3226913</p>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/products/f3.jpg" alt="" /></td>
+            <td>Carton Astronaut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-        <p><strong>Hours:</strong> 10:00 - 18:00 .Mon-Sat</p>
-
-        <div class="follow">
-          <h4>Follow us</h4>
-          <div class="icon">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-pinterest-p"></i>
-            <i class="fab fa-youtube"></i>
-          </div>
+    <!-- ================== section Cart Add ================== -->
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
         </div>
       </div>
 
-      <div class="col">
-        <h4>About us</h4>
-        <a href="#">Delivery International</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Contact Us</a>
-      </div>
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335</td>
+          </tr>
 
-      <div class="col">
-        <h4>My Account</h4>
-        <a href="#">Sing In</a>
-        <a href="#">View Cart</a>
-        <a href="#">My Wishlist</a>
-        <a href="#">Track My Order</a>
-        <a href="#">Help</a>
-      </div>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
 
-      <div class="col install">
-        <h4>Install App</h4>
-        <p>Form App Store or Google Play</p>
-        <div class="row">
-          <img src="images/pay/app.jpg" alt="" />
-          <img src="images/pay/play.jpg" alt="" />
-        </div>
-        <p>Secured Payment Gateways</p>
-        <img src="images/pay/pay.png" alt="" />
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 335</strong></td>
+          </tr>
+        </table>
       </div>
-
-      <div class="copyright">
-        <p>&#169; 2021,Tech2 ect -HTML CSS Ecommerce Template</p>
-      </div>
-    </footer>
+    </section>
 
     <script src="script.js"></script>
   </body>
